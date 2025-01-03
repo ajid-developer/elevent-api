@@ -12,7 +12,7 @@
         "laravel/tinker": "^2.8",
         "spatie/laravel-permission": "^6.10",
         "tymon/jwt-auth": "^2.1",
-        "yaza/laravel-repository-service": "^5.1"
+        "yaza/laravel-repository-service": "^4.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

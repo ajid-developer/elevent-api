@@ -10,7 +10,7 @@ use App\Repositories\User\UserRepository;
 class UserServiceImplement extends ServiceApi implements UserService
 {
 
-    protected string $title = "";
+    protected $title = "";
 
     protected UserRepository $userRepository;
 
