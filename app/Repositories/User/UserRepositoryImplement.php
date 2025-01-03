@@ -20,4 +20,8 @@ class UserRepositoryImplement extends Eloquent implements UserRepository{
     }
 
     // Write something awesome :)
+    public function withFindOrFail($id, array $withs)
+    {
+        return $this->model->with($withs)->findOrFail($id);
+    }
 }

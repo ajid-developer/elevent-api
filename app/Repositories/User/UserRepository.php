@@ -6,5 +6,5 @@ use LaravelEasyRepository\Repository;
 
 interface UserRepository extends Repository{
 
-    // Write something awesome :)
+    public function withFindOrFail($id, array $withs);
 }
